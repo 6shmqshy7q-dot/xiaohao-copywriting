@@ -1,0 +1,10 @@
+build:
+  publish: .
+  commands:
+    - pip install -r requirements.txt
+
+run:
+  command: uvicorn main:app --host 0.0.0.0 --port $PORT
+  envVars:
+    - key: ZHIPU_API_KEY
+      value: "0f3ad2789ca944baa38ae9f856d455a9.LDSpVrltt0ZZ2hnB"
