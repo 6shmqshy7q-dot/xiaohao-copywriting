@@ -1,0 +1,7 @@
+# 忽略不需要的文件
+venv/
+__pycache__/
+*.pyc
+.env
+*.dmg
+.DS_Store
